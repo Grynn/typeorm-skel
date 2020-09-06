@@ -1,0 +1,32 @@
+[
+  {
+    "resultsPath": "./output",
+    "pluralizeNames": true,
+    "noConfigs": false,
+    "convertCaseFile": "pascal",
+    "convertCaseEntity": "pascal",
+    "convertCaseProperty": "camel",
+    "convertEol": "LF",
+    "propertyVisibility": "public",
+    "lazy": false,
+    "activeRecord": false,
+    "generateConstructor": false,
+    "customNamingStrategyPath": "",
+    "relationIds": false,
+    "strictMode": "?",
+    "skipSchema": false,
+    "indexFile": false,
+    "exportType": "named"
+  },
+  {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "databaseName": "skel",
+    "user": "skel",
+    "password": "",
+    "databaseType": "postgres",
+    "schemaName": "public",
+    "ssl": false,
+    "skipTables": []
+  }
+]
