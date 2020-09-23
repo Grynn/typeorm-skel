@@ -2,5 +2,5 @@
 build/
 node_modules
 logs/
-output/
+generated-models/
 .vscode/settings.json

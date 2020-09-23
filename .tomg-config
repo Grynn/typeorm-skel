@@ -1,6 +1,6 @@
 [
   {
-    "resultsPath": "./output",
+    "resultsPath": "./generated-models",
     "pluralizeNames": true,
     "noConfigs": false,
     "convertCaseFile": "pascal",
