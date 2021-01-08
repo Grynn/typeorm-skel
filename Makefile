@@ -18,6 +18,9 @@ run: build
 migrate: build
 	${typeorm} migration:run
 
+migration-show: build
+	${typeorm} migration:show
+
 migration-generate: build
 	${info ${typeorm} migration:generate -n <name>}
 

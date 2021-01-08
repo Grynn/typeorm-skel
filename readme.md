@@ -5,7 +5,7 @@ Base project for building typeorm projects.
 ## Setup dev environment
 
 * Install ts-node, sucrase-node, node `brew install ts-node sucrase-node node`  
-* Add to .zshrc: ``alias typeorm="ts-node `npm bin`/typeorm"``
+* Add to ~/.zshrc: ``alias typeorm="ts-node `npm bin`/typeorm"``
 
 
 ## Useful commands
@@ -20,7 +20,7 @@ Base project for building typeorm projects.
 
 1. Postgres
 
-```
+```shell
 brew install postgres
 psql postgres
 create user skel with password 'somepassword'
@@ -29,7 +29,7 @@ create database skel with owner = skel connection limit = 10;
 
 1. SQLite
 
-```
+```shell
 brew install sqlite3
 npm i --save better-sqlite3 bluebird
 #edit ormconfig.js
